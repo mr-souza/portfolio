@@ -55,14 +55,12 @@ export default function Home() {
               <div className="flex flex-col gap-4">
                 <div className="flex flex-col gap-2 text-lg">
                   <span className="lg:text-2xl text-xl">Hi, I am</span>
-                  <span className="font-abril lg:text-7xl text-5xl">
-                    Marcelo Souza,
-                  </span>
+                  <span className="font-abril text-7xl">Marcelo Souza,</span>
                   <span className="lg:text-2xl text-xl">
                     a <b>Frontend Engineer</b> and <b>UX/UI Designer</b>.
                   </span>
                 </div>
-                <div className="flex flex-row gap-4">
+                <div className="flex flex-row sm:gap-4 gap-[1.5rem]">
                   <Link
                     href="https://www.linkedin.com/in/mr-souza"
                     className="hover:scale-105 duration-200"

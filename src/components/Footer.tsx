@@ -8,8 +8,8 @@ import {
 export function Footer() {
   return (
     <footer className="flex flex-row gap-8 py-10 px-8 justify-between border-t border-white/20">
-      <span className="text-sm">© 2023 - Marcelo Souza</span>
-      <div className="flex flex-row gap-4">
+      <span className="text-sm whitespace-nowrap">© 2023 - Marcelo Souza</span>
+      <div className="flex flex-row sm:gap-4 gap-[1.5rem]">
         <Link
           href="https://www.linkedin.com/in/mr-souza"
           className="hover:scale-105 duration-200"
