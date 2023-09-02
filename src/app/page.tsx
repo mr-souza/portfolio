@@ -125,7 +125,7 @@ export default function Home() {
                     y: 200,
                   },
                   onscreen: {
-                    y: 50,
+                    y: 0,
                     transition: {
                       type: 'spring',
                       bounce: 0.4,
