@@ -55,7 +55,7 @@ export default function Home() {
               <div className="flex flex-col gap-4">
                 <div className="flex flex-col gap-2 text-lg">
                   <span className="lg:text-2xl text-xl">Hi, I am</span>
-                  <span className="font-abril lg:text-7xl text-6xl">
+                  <span className="font-abril lg:text-7xl text-5xl">
                     Marcelo Souza,
                   </span>
                   <span className="lg:text-2xl text-xl">
@@ -71,7 +71,7 @@ export default function Home() {
                     <LinkedinLogo size={32} />
                   </Link>
                   <Link
-                    href="https://www.linkedin.com/in/mr-souza"
+                    href="https://github.com/mr-souza"
                     className="hover:scale-105 duration-200"
                     target="_blank"
                   >

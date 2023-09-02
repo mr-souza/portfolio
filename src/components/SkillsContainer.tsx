@@ -32,7 +32,7 @@ export function SkillsContainer() {
   return (
     <div className="flex flex-wrap xl:w-1/4 sm:w-3/6 w-full gap-4 sm:justify-end justify-start">
       {skills.map(skill => (
-        <div className="flex p-4 w-20 h-20 bg-zinc-900 rounded justify-center">
+        <div className="flex p-4 w-20 h-20 bg-zinc-900 rounded justify-center items-center">
           <Image
             src={skill.img}
             alt={skill.label}

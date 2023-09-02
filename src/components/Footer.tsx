@@ -18,7 +18,7 @@ export function Footer() {
           <LinkedinLogo size={24} />
         </Link>
         <Link
-          href="https://www.linkedin.com/in/mr-souza"
+          href="https://github.com/mr-souza"
           className="hover:scale-105 duration-200"
           target="_blank"
         >
